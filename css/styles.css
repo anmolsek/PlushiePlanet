@@ -1,0 +1,40 @@
+
+
+/* NAVIGATION BAR */
+
+nav{
+    background-color: #FFF4DD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+nav a{
+    font-family: "DM Sans";
+    font-size: 20px;
+    text-decoration: none;
+    color: #383838;
+    padding-right: 70px;
+}
+
+/* LANDING PAGE*/
+
+h1{
+    font-family: "DM Sans";
+    color: #FDBB31;
+}
+
+h2{
+    font-family: "Neue Montreal";
+    font-size: 60px;
+}
+
+p{
+    font-family: "DM Sans";
+    font-size: 20px;
+}
