@@ -32,9 +32,15 @@ h1{
 h2{
     font-family: "Neue Montreal";
     font-size: 60px;
+    color: #383838;
 }
 
 p{
     font-family: "DM Sans";
     font-size: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
 }
