@@ -21,3 +21,20 @@ nav a{
     color: #383838;
     padding-right: 70px;
 }
+
+/* LANDING PAGE*/
+
+h1{
+    font-family: "DM Sans";
+    color: #FDBB31;
+}
+
+h2{
+    font-family: "Neue Montreal";
+    font-size: 60px;
+}
+
+p{
+    font-family: "DM Sans";
+    font-size: 20px;
+}
