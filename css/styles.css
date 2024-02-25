@@ -1,0 +1,23 @@
+
+
+/* NAVIGATION BAR */
+
+nav{
+    background-color: #FFF4DD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+nav a{
+    font-family: "DM Sans";
+    font-size: 20px;
+    text-decoration: none;
+    color: #383838;
+    padding-right: 70px;
+}
