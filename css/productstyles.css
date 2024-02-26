@@ -86,14 +86,14 @@ p{
 
 .button-nav {
     color: #fafafa;
-    background-color: #000000;
+    background-color: #383838;
     font-size: 1rem;
     padding: 0.75rem 1.1rem;
     border-radius: 1.5rem;
     transition: background-color 0.35s;
     display: inline-block;
     text-decoration: none;
-    margin: 0.5rem;
+
     box-shadow: 0px 1px 3px 2px rgb(173, 153, 145, 0.2);
   
     /* reference for drop shadow: https://www.w3schools.com/cssref/css3_pr_box-shadow.php */
@@ -102,14 +102,14 @@ p{
   
   .button-nav:hover,
   .button-nav:focus {
-    color:#000000;
-    background-color: #fff4dd;
+    color:#fafafa;
+    background-color: #383838;
     text-decoration: underline;
   }
   
   .cart {
     background-color: #fdbb31;
-    color: #000000;
+    color: #383838;
   }
 
 .img-item {
