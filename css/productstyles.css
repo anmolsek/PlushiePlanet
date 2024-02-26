@@ -104,7 +104,6 @@ p{
   .button-nav:focus {
     color:#fafafa;
     background-color: #383838;
-    text-decoration: underline;
   }
   
   .cart {

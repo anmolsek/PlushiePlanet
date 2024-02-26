@@ -71,9 +71,8 @@ p{
 }
 
 .banner a:hover, .banner a:focus{
-    color:#000000;
+    color:#383838;
     background-color: #FDBB31;
-    text-decoration: underline;
 }
 
 .banner p{
