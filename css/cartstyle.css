@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
   }
 
+html{
+  scroll-behavior: smooth;
+}
+
 nav{
     background-color: #FFF4DD;
     display: flex;
