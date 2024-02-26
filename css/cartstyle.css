@@ -1,11 +1,10 @@
-/* NAVIGATION BAR */
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 body {
     font-family: 'DM Sans', sans-serif;
-    background-color: #fafafa;
+    background-color: #ffffff;
     color: #000000;
     font-weight: regular;
     margin: auto;
