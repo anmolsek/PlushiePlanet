@@ -116,3 +116,33 @@ p{
     max-width: 200px;
     color: #FDBB31;
 }
+
+/* TRENDING PAGE */
+
+h3{
+    font-family: "Neue Montreal";
+    font-size: 20px;
+    color: #383838;
+}
+
+.trend-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .trending {
+    display: flex;
+    justify-content: center; /* Center the products horizontally */
+    gap: 100px; /* Add some space between products */
+  }
+  
+  .trend-prod {
+    text-align: center; /* Center the content within each product box */
+  }
+
+
+
+
+
+
