@@ -68,3 +68,230 @@ h3{
     text-align: center;
     opacity: 0.9;
 }
+
+/* PAYMENT FORM */
+
+.radio{
+    font-size:20px;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #000000;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  
+  .radio + .radio{
+    margin-left: 20px;
+  }
+  
+  .radio input[type="radio"]{
+    display:none;
+  }
+  
+  .radio span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border:3px solid #000000;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 7px;
+  }
+  
+  .radio span:after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fdbb31;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s;
+  }
+  
+  .radio input[type="radio"]:checked ~ span:after{
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  form {
+    max-width: 30rem;
+    border: 2px #000000;
+  }
+  
+  label {
+    position: relative;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 0.3rem;
+    margin-top: 0.75rem;
+    display: block;
+    font-weight: 600;
+  }
+  
+  input {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0.4rem;
+    width: 100%;
+    border: 2.5px solid #b9b9b9;
+    border-radius: 0.4rem;
+    font-family: "DM Sans", sans-serif;
+    background-color: #fcfcf7;
+    transition-property: border-color;
+    transition-duration: 0.17s;
+    transition-timing-function: ease-in;
+    /* reference for changing border colour animation: https://stackoverflow.com/questions/9476923/css3-animate-border-color */
+  
+  }
+  
+  input::placeholder {
+    color: #ad9991;
+  
+    /* reference for changing placeholder colour: https://www.w3schools.com/howto/howto_css_placeholder.asp#:~:text=In%20most%20browsers%2C%20the%20placeholder,opacity%3A%201%20to%20fix%20this. */
+  }
+  
+  input:hover {
+    border-color: #fdbb31;
+  }
+  
+  input:focus {
+    outline: #fdbb31;
+    border-color: #fdbb31;
+    background-color: #fff4dd;
+  }
+
+  .text-link {
+    color: #fdbb31;
+    word-break: break-word;
+  }
+  
+  .text-link:hover,
+  .text-link:focus {
+    color: white;
+    background-color: #fdbb31;
+  }
+
+  .button-nav {
+    color: #fafafa;
+    background-color: #383838;
+    font-size: 1rem;
+    padding: 0.75rem 1.1rem;
+    border-radius: 1.5rem;
+    transition: background-color 0.35s;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0.5rem;
+    box-shadow: 0px 1px 3px 2px rgb(173, 153, 145, 0.2);
+  
+    /* reference for drop shadow: https://www.w3schools.com/cssref/css3_pr_box-shadow.php */
+    /* reference for rounded corners: https://www.w3schools.com/css/css3_borders.asp */
+  }
+  
+  .button-nav:hover,
+  .button-nav:focus {
+    color:#383838;
+    background-color: #fff4dd;
+    text-decoration: underline;
+  }
+
+  /*-- Cart page --*/
+.cartcheck-page{
+    margin: 0px;
+  }
+  
+  .cart-page{
+    margin: 40px;
+  }
+  
+  .checkout{
+    width:100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-info{
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  th{
+    text-align: left;
+    padding: 10px;
+    color: #000000;
+    background-color: #fdbb31;
+    font-weight: bold;
+  }
+  
+  .cart-table{
+    padding: 10px 5px;
+  }
+  
+  .cart-table input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .cart-img{
+    height: 140px;
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .total-price{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .total-price table{
+    border-top: 3px solid #fdbb31;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .text-cart{
+    text-align: right;
+  }
+  
+  th:last-child{
+    text-align: right;
+  }
+
+  .element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .element-grid {
+    max-width: 500px;
+    width: 90%;
+  }
+
+    /* FOOTER */
+
+    .footer{
+        background-color: #FFF4DD;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 5px;
+        }
+    
+      .footer-row{
+        max-width: 200px;
+        text-align: center;
+      }
+    
+      .footer-firstrow{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;  
+      }
