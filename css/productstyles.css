@@ -1,9 +1,17 @@
 /* NAVIGATION BAR */
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #fafafa;
+    color: #000000;
+    font-weight: regular;
+    margin: auto;
+    overflow-x: hidden;
+  }
+
 nav{
     background-color: #FFF4DD;
     display: flex;
@@ -24,6 +32,12 @@ nav a{
     padding-right: 70px;
 }
 
+.products-grid{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
 /* LANDING PAGE*/
 
 h1{
@@ -35,7 +49,13 @@ h2{
     font-family: "Neue Montreal";
     font-size: 70px;
 }
- 
+
+h3{
+    font-family: "Neue Montreal";
+    font-size: 20px;
+    color: #383838;
+}
+
 p{
     font-family: "DM Sans";
     font-size: 20px;
@@ -63,3 +83,62 @@ p{
     font-weight: 500;
     text-align: center;
 }
+
+.button-nav {
+    color: #fafafa;
+    background-color: #383838;
+    font-size: 1rem;
+    padding: 0.75rem 1.1rem;
+    border-radius: 1.5rem;
+    transition: background-color 0.35s;
+    display: inline-block;
+    text-decoration: none;
+
+    box-shadow: 0px 1px 3px 2px rgb(173, 153, 145, 0.2);
+  
+    /* reference for drop shadow: https://www.w3schools.com/cssref/css3_pr_box-shadow.php */
+    /* reference for rounded corners: https://www.w3schools.com/css/css3_borders.asp */
+  }
+  
+  .button-nav:hover,
+  .button-nav:focus {
+    color:#fafafa;
+    background-color: #383838;
+    text-decoration: underline;
+  }
+  
+  .cart {
+    background-color: #fdbb31;
+    color: #383838;
+  }
+
+.img-item {
+    outline: 2px dashed #fff4dd;
+    transition: transform 0.2s;
+    border-radius: 0.1rem;
+    box-shadow: 0px 1px 5px 5px #000000;
+  }
+
+.img-item:hover,
+.img-item:focus {
+  transform: scale(1.04);
+  opacity: 0.85;
+  outline: 2px solid #ffefce;
+  /* reference for zoom on hover: https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+}
+
+  .product-cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: space-between;
+    border: 2px solid #fdbb31;
+    background-color: #fcfcf7;
+    max-width: 400px;
+    padding: 1rem 1rem 2rem;
+    border-radius: 0.5rem;
+  }
+
+  .product-cards img {
+    max-width: auto;
+    margin: auto;
+  }
