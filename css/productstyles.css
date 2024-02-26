@@ -5,7 +5,7 @@
 
 body {
     font-family: 'DM Sans', sans-serif;
-    background-color: #fafafa;
+    background-color: #ffffff;
     color: #000000;
     font-weight: regular;
     margin: auto;
@@ -144,7 +144,7 @@ p{
     max-width: auto;
     margin: auto;
   }
-
+  
   .footer{
     background-color: #FFF4DD;
     display: flex;
@@ -163,4 +163,153 @@ p{
     display: flex;
     flex-direction: row;
     gap: 5px;  
+  }
+
+
+
+
+
+
+  .small-container{
+    max-width:1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .single-product{
+    margin-top:80px;
+  }
+
+  .small-img-row{
+    display: flex;
+    justify-content: space-around
+  }
+
+  .col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+  }
+
+  .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+  }
+
+  .single-product .col-2 img{
+    padding: 0;
+  }
+
+  .single-product .col-2{
+    padding: 20px;
+  }
+
+  .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+  }
+
+  .col2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+  }
+
+  .single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2.5px solid #383838;  
+    border-radius: 0.4rem;  
+}
+
+    select:focus {
+        outline: #fdbb31;
+        border-color: #fdbb31;
+        background-color: #ffffff;
+      }
+
+  .single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 2.5px solid #383838;  
+    border-radius: 0.4rem;
+    font-family: "DM Sans", sans-serif;
+    background-color: #ffffff;
+    transition-property: border-color;
+    transition-duration: 0.17s;
+    transition-timing-function: ease-in;
+}
+  
+  input::placeholder {
+    color: #ad9991;
+  
+    /* reference for changing placeholder colour: https://www.w3schools.com/howto/howto_css_placeholder.asp#:~:text=In%20most%20browsers%2C%20the%20placeholder,opacity%3A%201%20to%20fix%20this. */
+  }
+  
+  input:hover {
+    border-color: #fdbb31;
+  }
+  
+  input:focus {
+    outline: #fdbb31;
+    border-color: #fdbb31;
+    background-color: #fff4dd;
+  }
+
+  .single-product .fa{
+    color: #FDBB31;
+    margin-left: 10px;
+  }
+
+  .btn{
+    display: inline-block;
+    text-decoration: none;
+    background: #fdbb31;
+    color: #383838;
+    padding: 0.75rem 1.1rem;
+    border-radius: 1.5rem;
+    margin: 30px 0;
+    transition: background-color 0.35s;
+  }
+
+  .btn:hover{
+    background: #383838;
+    color: #ffffff;
+  }
+
+  .trend-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  
+  .trending {
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    padding-top: 1rem;
+    padding-bottom:100px;
+  }
+  
+  .trend-prod {
+    text-align: center;
+    padding-bottom: 1rem;
   }
