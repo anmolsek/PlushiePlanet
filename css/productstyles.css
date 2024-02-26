@@ -28,11 +28,20 @@ nav{
 }
 
 nav a{
-    font-family: "DM Sans";
-    font-size: 20px;
-    text-decoration: none;
-    color: #383838;
-    padding-right: 70px;
+  font-family: "DM Sans";
+  font-size: 20px;
+  text-decoration: none;
+  color: #383838;
+  padding-right: 70px;
+}
+
+nav a:hover{
+  font-family: "DM Sans";
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
+  padding-right: 70px;
 }
 
 .products-grid{

@@ -35,6 +35,16 @@ nav a{
     padding-right: 70px;
 }
 
+
+nav a:hover{
+    font-family: "DM Sans";
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    text-decoration: underline;
+    padding-right: 70px;
+}
+
 /* LANDING PAGE*/
 
 h1{
