@@ -171,6 +171,78 @@ h3{
     padding-bottom: 1rem;
   }
 
+  /* SUBSCRIPTION */
+  /* Reference for this part: https://codepen.io/manor/pen/rzaEEd */
+
+  .subscription{
+    background-color: #FDBB31;
+  }
+
+  .subscription-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscription h3{
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .subscription p{
+    padding: 0px;
+    margin: 0%;
+    margin-bottom: 20px;
+  }
+
+
+  @media all and (max-width: 991px) {
+    .newsletter-headline, .newsletter-subtitle {
+      text-align: center;
+    }
+  }
+
+  .subscription form{
+    padding-bottom: 20px;
+  }
+
+  .newsletter-input {
+    flex: 1;
+    border: 0;
+    border: 0;
+    line-height: 1.6875;
+    padding: .5625em 1.5em;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-input:focus, .newsletter-input:active {
+    border: 0;
+    outline: 0;
+  }
+
+  .submit{
+    font-family: "DM Sans";
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #383838;
+    padding: 0.75rem 1.1rem;
+    border-radius: 1.5rem;
+    transition: background-color 0.35s;
+  }
+
+  .submit:hover, .submit:focus{
+    color:#383838;
+    background-color: #FFF4DD;
+}
+
+
+
   /* FOOTER */
 
   .footer{
