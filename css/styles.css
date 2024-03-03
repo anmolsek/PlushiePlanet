@@ -221,6 +221,10 @@ h3{
   transition-timing-function: ease-in;
   }
 
+  .newsletter-input:hover {
+    border-color: #383838;  
+  }
+  
   .newsletter-input:focus, .newsletter-input:active {
     outline: #fdbb31;
     border-color: #383838;
