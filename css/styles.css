@@ -210,24 +210,27 @@ h3{
   }
 
   .newsletter-input {
-    flex: 1;
-    border: 0;
-    border: 0;
-    line-height: 1.6875;
-    padding: .5625em 1.5em;
-    border-radius: 4px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0.4rem;
+  border: 2.5px solid #b9b9b9;
+  border-radius: 0.4rem;
+  font-family: "DM Sans", sans-serif;
+  background-color: #fcfcf7;
+  transition-property: border-color;
+  transition-duration: 0.17s;
+  transition-timing-function: ease-in;
   }
 
   .newsletter-input:focus, .newsletter-input:active {
-    border: 0;
-    outline: 0;
+    outline: #fdbb31;
+    border-color: #383838;
+    background-color: #fff4dd;
   }
 
   .submit{
     font-family: "DM Sans";
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     color: #ffffff;
     background-color: #383838;
