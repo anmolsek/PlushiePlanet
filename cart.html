@@ -109,16 +109,17 @@
           <h3 class = "title-pay"> Please select your payment method:</h3>
           <div class = "radio-group">
             <label class ="radio">
-              <input type = "radio" value="1" name="days">
+              <input class="pay-input" type = "radio" value="1" name="days">
               Credit
               <span></span>
             </label>
             <label class = "radio">
-              <input type = "radio" value="2" name="days">
+              <input class="pay-input" type = "radio" value="2" name="days">
               Debit
               <span></span>
             </label>
           </div>
+          <div class="payment-method">
         <form>
         <div class="container">
     
@@ -130,25 +131,25 @@
     
                   <div class="inputBox">
                       <span>Name:</span>
-                      <input type="text" placeholder="Karanjit Singh">
+                      <input class="pay-input" type="text" placeholder="Karanjit Singh">
                   </div>
                   <div class="inputBox">
                       <span>Address:</span>
-                      <input type="text" placeholder="xxx 01 Ave">
+                      <input class="pay-input" type="text" placeholder="xxx 01 Ave">
                   </div>
                   <div class="inputBox">
                       <span>City:</span>
-                      <input type="text" placeholder="Surrey">
+                      <input class="pay-input" type="text" placeholder="Surrey">
                   </div>
     
                   <div class="flex">
                       <div class="inputBox">
                           <span>Province:</span>
-                          <input type="text" placeholder="BC">
+                          <input class="pay-input" type="text" placeholder="BC">
                       </div>
                       <div class="inputBox">
                           <span>Postal Code:</span>
-                          <input type="text" placeholder="x0x 1x1">
+                          <input class="pay-input" type="text" placeholder="x0x 1x1">
                       </div>
                   </div>
               </div>
@@ -156,19 +157,19 @@
                   <h3 class="title-pay">Payment Method</h3>
                   <div class="inputBox">
                       <span>Name on Card:</span>
-                      <input type="text" placeholder="Karanjit Singh">
+                      <input class="pay-input" type="text" placeholder="Karanjit Singh">
                   </div>
                   <div class="inputBox">
                       <span>Card Number:</span>
-                      <input type="number" placeholder="xxxx 1111 xxxx 1111">
+                      <input class="pay-input" type="number" placeholder="xxxx 1111 xxxx 1111">
                   </div>
                   <div class="inputBox">
                       <span>EXP date:</span>
-                      <input type="text" placeholder="xx/xx">
+                      <input class="pay-input" type="text" placeholder="xx/xx">
                   </div>
                       <div class="inputBox">
                           <span>CVV :</span>
-                          <input type="text" placeholder="111">      
+                          <input class="pay-input" type="text" placeholder="111">      
                       </div>
                   </div>
               </div>   
@@ -176,33 +177,52 @@
           <br>
           <a class="button-nav" href="index.html">Place your Order</a>
         </form>
+      </div>
           </div>
           </div>
           
     </section>
 
-    <footer>
-      <div class="footer">
+    <div class="subscription">
 
-        <div class="footer-firstrow">
-
-          <div class="footer-row">
-            <p> 5890 Leeway Street, Vancouver, CA, V4R7T2 </p>
-          </div>
-
-          <div class="footer-row">
-            <p> 604-900-4820 shop@plushieplanet.ca</p>
-          </div>
-
+      <div class="subscription-box">
+        <div class="newsletter-headline">
+          <h3>Subscribe to our newsletter</h3>
         </div>
-
-        <hr width="100%" size="2" color="#383838" noshade>
-
-        <div class="footer-col">
-          <p>© 2024 Plushie Planet</p>
+        <div class="newsletter-subtitle">
+          <p>Receive news, updates and special discounts</p>
         </div>
+        <form>
+          <input class="newsletter-input" type="text" placeholder="Name">
+          <input class="newsletter-input newsletter-input-email" type="email" placeholder="email@provider.com">
+          <a class="submit" href="#"> Submit</a>
+        </form>
+      </div>
 
     </div>
+
+    <footer>
+      <div class="footer">
+        <div class="row">
+        <a href="#"> <img src="img/facebook.png" alt="facebook icon" style="height: 35px; width: 35px;"> </a>
+        <a href="#"> <img src="img/instagram.png" alt="instagram icon" style="height: 35px; width: 35px;"> </a>
+        <a href="#"> <img src="img/twitter.png" alt="twitter icon" style="height: 35px; width: 35px;"> </a>
+        <a href="#"> <img src="img/youtube.png" alt="youtube icon" style="height: 35px; width: 35px;"> </a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+        <p>Copyright © 2024 PlushiePlanet</p>
+        </div>
+        </div>
     </footer>
 
   </body>

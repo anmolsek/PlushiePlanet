@@ -133,7 +133,7 @@ h3{
     transform: translate(-50%, -50%) scale(1);
   }
   
-  form {
+  .payment-method form {
     max-width: 30rem;
     border: 2px #000000;
   }
@@ -148,7 +148,7 @@ h3{
     font-weight: 600;
   }
   
-  input {
+  .pay-input {
     font-size: 1.1rem;
     line-height: 1.6;
     padding: 0.4rem;
@@ -164,17 +164,17 @@ h3{
   
   }
   
-  input::placeholder {
+  .pay-input::placeholder {
     color: #ad9991;
   
     /* reference for changing placeholder colour: https://www.w3schools.com/howto/howto_css_placeholder.asp#:~:text=In%20most%20browsers%2C%20the%20placeholder,opacity%3A%201%20to%20fix%20this. */
   }
   
-  input:hover {
+  .pay-input:hover {
     border-color: #fdbb31;
   }
   
-  input:focus {
+  .pay-input:focus {
     outline: #fdbb31;
     border-color: #fdbb31;
     background-color: #fff4dd;
@@ -214,7 +214,7 @@ h3{
   }
 
   /*-- Cart page --*/
-.cartcheck-page{
+  .cartcheck-page{
     margin: 0px;
   }
   
@@ -289,23 +289,144 @@ h3{
 
     /* FOOTER */
 
+    .subscription{
+    background-color: #FFF4DD;
+  }
+
+  .subscription-box{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscription h3{
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .subscription p{
+    padding: 0px;
+    margin: 0%;
+    margin-bottom: 20px;
+  }
+
+
+  @media all and (max-width: 991px) {
+    .newsletter-headline, .newsletter-subtitle {
+      text-align: center;
+    }
+  }
+
+  .subscription form{
+    padding-bottom: 5px;
+  }
+
+  .newsletter-input {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0.3rem;
+  border: 2.5px solid #b9b9b9;
+  border-radius: 0.4rem;
+  font-family: "DM Sans", sans-serif;
+  background-color: #fcfcf7;
+  transition-property: border-color;
+  transition-duration: 0.17s;
+  transition-timing-function: ease-in;
+  }
+
+  .newsletter-input:hover {
+    border-color: #fdbb31;  
+  }
+  
+  .newsletter-input:focus, .newsletter-input:active {
+    outline: #fdbb31;
+    border-color: #fdbb31;
+    background-color: #fff4dd;
+  }
+
+  .submit{
+    font-family: "DM Sans";
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #383838;
+    padding: 0.75rem 1.1rem;
+    border-radius: 1.5rem;
+    transition: background-color 0.35s;
+  }
+
+  .submit:hover, .submit:focus{
+    color:#383838;
+    background-color: #fdbb31;
+}
+
+
+
+  /* FOOTER */
+
     .footer{
-      margin-top: 2rem;
-        background-color: #FFF4DD;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-        gap: 5px;
-        }
+    background:#FFF4DD;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+
+    .footer a, .footer p{
+      font-family: "DM Sans";
+      font-size: 15px;
+      text-decoration: none;
+      color: #383838;
+      justify-content: center;
+    }
     
-      .footer-row{
-        max-width: 200px;
-        text-align: center;
-      }
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:#383838;
+    justify-content: center;
+    }
     
-      .footer-firstrow{
-        display: flex;
-        flex-direction: row;
-        gap: 5px;  
-      }
+    .footer .row a{
+    text-decoration:none;
+    color:#383838;
+    transition:0.5s;
+    margin-right: 50px;
+    }
+    
+    .footer .row a:hover{
+    color:#000000;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 20px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
