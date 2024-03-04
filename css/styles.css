@@ -183,7 +183,7 @@ h3{
   .events-section{
     display: flex;
     flex-direction: row;
-    background-color:#FDBB31;
+    background-color:#FFF4DD;
     box-shadow: 0 5px 10px 0 #383838;
     border-radius: 10px;
     overflow:hidden;
