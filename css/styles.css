@@ -352,6 +352,44 @@ h3{
     }
     }
 
+    /* THANKS */
+
+    .Thanks{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .keepshop{
+      font-family: "DM Sans";
+      font-size: 20px;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #383838;
+      padding: 0.75rem 1.1rem;
+      border-radius: 1.5rem;
+      transition: background-color 0.35s;
+    }
+
+    .thank-button{
+      margin-top: 20px;
+    }
+
+    .Thanks h1{
+      margin-top: 0px;
+    }
+
+    .Thanks h2{
+      margin-bottom: 3rem;
+      margin-top: 15rem;
+    }
+  
+    .keepshop:hover, .keepshop:focus{
+      color:#383838;
+      background-color: #fdbb31;
+  }
+
 
 
 
