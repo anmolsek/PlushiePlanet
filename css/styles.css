@@ -174,7 +174,7 @@ h3{
   /* Reference for this part: https://codepen.io/manor/pen/rzaEEd */
 
   .subscription{
-    background-color: #FDBB31;
+    background-color: #FFF4DD;
   }
 
   .subscription-box{
@@ -222,12 +222,12 @@ h3{
   }
 
   .newsletter-input:hover {
-    border-color: #383838;  
+    border-color: #fdbb31;  
   }
   
   .newsletter-input:focus, .newsletter-input:active {
     outline: #fdbb31;
-    border-color: #383838;
+    border-color: #fdbb31;
     background-color: #fff4dd;
   }
 
@@ -244,7 +244,7 @@ h3{
 
   .submit:hover, .submit:focus{
     color:#383838;
-    background-color: #FFF4DD;
+    background-color: #fdbb31;
 }
 
 
