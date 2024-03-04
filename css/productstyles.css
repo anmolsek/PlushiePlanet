@@ -285,7 +285,7 @@ p{
 .events-section{
   display: flex;
   flex-direction: row;
-  background-color:#FDBB31;
+  background-color:#FFF4DD;
   box-shadow: 0 5px 10px 0 #383838;
   border-radius: 10px;
   overflow:hidden;
@@ -376,10 +376,6 @@ p{
     margin:0% 3%;
     }
     }
-
-
-
-
 
   .small-container{
     max-width:1000px;
