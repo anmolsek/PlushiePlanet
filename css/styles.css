@@ -167,6 +167,7 @@ h3{
 .trend-section {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     padding-top: 1rem;
   }
@@ -174,6 +175,7 @@ h3{
   .trending {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 100px; 
     padding-top: 1rem;
     padding-bottom:100px;
@@ -189,7 +191,9 @@ h3{
   .events {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     padding-bottom: 100px;
 
   }
@@ -197,6 +201,8 @@ h3{
   .events-section{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color:#FFF4DD;
     box-shadow: 0 5px 10px 0 #383838;
     border-radius: 10px;
@@ -428,6 +434,30 @@ h3{
   
     .banner h1, .banner h2, .banner p {
       text-align: center;
+    }
+
+    .statistics{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .trend-section {
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    .trend-section h2{
+      text-align: center;
+    }
+
+    .events h2, .events p{
+      text-align: center;
+    }
+
+    .events{
+      flex-direction: column;
+      align-items: center;
     }
 
 
