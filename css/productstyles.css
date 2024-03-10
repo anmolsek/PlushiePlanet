@@ -46,10 +46,10 @@ nav a:hover{
 
 .products-grid{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 2rem;
-    width: 70%; 
-    margin: 0 auto;
+    width: 100%; 
 }
 .banner{
   display: flex;
@@ -188,6 +188,7 @@ p{
   .product-cards {
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 2rem;
     justify-content: space-between;
     border: 2px solid #fdbb31;
     background-color: #ffffff;
