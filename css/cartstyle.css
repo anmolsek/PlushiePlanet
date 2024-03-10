@@ -418,8 +418,9 @@ h3{
     }
     
     .footer .row a:hover{
-    color:#000000;
-    }
+      text-decoration: underline;
+      color:#000000;
+      }
     
     .footer .row ul{
     width:100%;
