@@ -357,20 +357,7 @@ h3{
     margin:0% 1%;
     }
     
-    @media (max-width:720px){
-    .footer{
-    text-align:left;
-    padding:5%;
-    }
-    .footer .row ul li{
-    display:block;
-    margin:10px 0px;
-    text-align:left;
-    }
-    .footer .row a i{
-    margin:0% 3%;
-    }
-    }
+  
 
     /* THANKS */
 
@@ -451,7 +438,7 @@ h3{
       text-align: center;
     }
 
-    .events h2, .events p{
+    .events h2, .events p, .events h1{
       text-align: center;
     }
 
@@ -459,6 +446,32 @@ h3{
       flex-direction: column;
       align-items: center;
     }
+
+    .footer{
+      text-align:center;
+      padding:5%;
+    }
+    
+      .footer .row ul li{
+      display:block;
+      margin:10px 0px;
+      text-align:center;
+      }
+      .footer .row a i{
+      margin:0% 3%;
+      }
+    
+      .subscription form{
+        text-align: center;
+      }
+
+      .subscription form .newsletter-input {
+        margin-bottom: 30px; /* Add margin to the bottom of the input fields */
+      }
+    
+      .subscription form .submit {
+        margin-top: 30px; /* Adjust the margin-top value as needed */
+      }
 
 
   }
