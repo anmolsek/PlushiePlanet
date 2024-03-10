@@ -531,9 +531,9 @@ p{
   }
 
   .about-container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
   }
 
   .about{
@@ -550,12 +550,13 @@ p{
   }
 
   .about-image img{
-    max-width: 100%;
-    height: auto;
+    width: 30rem;
+    height: 80%;
     display: block;
   }
 
   .about-content{
+    margin-left: 2rem;
     flex:1;
   }
 
@@ -576,7 +577,7 @@ p{
   }
 
   .testimonial-heading{
-    margin: 3rem 0;
+    margin: 1rem 0;
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
@@ -620,10 +621,6 @@ p{
     cursor: pointer;
 }
 
-.test-box:hover{
-  box-shadow: 0 0 3px 0 #FDBB31;
-  transition: all ease;
-}
 
 .profile-img{
   width:50px;
@@ -679,11 +676,14 @@ p{
     }
     .about{
       padding: 2rem;
-      flex-direction: column;
+      flex-direction: row;
     }
     .about-image{
       margin-right: 0;
       margin-bottom: 2rem;
+    }
+    .about-content{
+      margin-left: 0;
     }
     .about-content p{
       padding: 0;
