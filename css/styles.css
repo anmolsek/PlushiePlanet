@@ -123,6 +123,7 @@ p{
 .statistics{
     background-color: #383838;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
     padding: 20px;
@@ -467,11 +468,11 @@ h3{
       }
 
       .subscription form .newsletter-input {
-        margin-bottom: 30px; /* Add margin to the bottom of the input fields */
+        margin-bottom: 30px;
       }
     
       .subscription form .submit {
-        margin-top: 30px; /* Adjust the margin-top value as needed */
+        margin-top: 30px; 
       }
 
 
